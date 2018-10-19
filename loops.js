@@ -10,10 +10,10 @@ function positiveIntSum(limit){
 
 
 function additionPatternSum(start, diff, limit,){
-    for (let i = start; i <= limit;i = i + diff){
+    for (let i = start; i <= limit; i = i + diff){
             start = start + i
     }
-    return start
+    return start;
 }
 
 
@@ -23,13 +23,12 @@ function additionPatternSum(start, diff, limit,){
 
 function multiplicationPatternSum(start, factor, max,){
     let sum = start;
-    while (let i = start;  i <= max; i = i + factor){
+    while (i <= max){
             sum = sum * i;
+        i = i + factor;
         }
-    return sum    
+    return sum;
 }
-
-
 
 
 
