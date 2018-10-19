@@ -23,6 +23,7 @@ function additionPatternSum(start, diff, limit,){
 
 function multiplicationPatternSum(start, factor, max,){
     let sum = start;
+    let i = start
     while (i <= max){
             sum = sum * i;
         i = i + factor;
@@ -33,6 +34,6 @@ function multiplicationPatternSum(start, factor, max,){
 
 
 //Later copy paste the checking code below here.
-console.log(positiveIntSum(10))
+console.log(positiveIntSum(1500))
 console.log(additionPatternSum(10, 1, 100))
 console.log(multiplicationPatternSum(10, 1, 1000))
