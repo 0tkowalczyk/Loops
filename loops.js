@@ -25,7 +25,7 @@ function multiplicationPatternSum(start, factor, max){
     let sum = start;
     let i = start;
     while (i <= max){
-            sum = sum * i;
+            sum = sum + i * factor;
         i = i + factor;
         }
     return sum;
