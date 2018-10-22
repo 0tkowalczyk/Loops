@@ -36,17 +36,17 @@ For each questions, type the answer instead of the question-mark (?) once you us
 -  **Q2:**  1 + 2 + 3 + 4 + ... + 2000000 = 2000001000000
 
 
--  **Q3:**  -80 + -20 + 40 + 100 + ... (50 times) = ?
+-  **Q3:**  -80 + -20 + 40 + 100 + ... (50 times) = 69500
 
 
--  **Q4:**  4 + 12 + 36 + 108 + ... + (under 50,000) = ?
+-  **Q4:**  4 + 12 + 36 + 108 + ... + (under 50,000) = 29524
 
 
--  **Q5:**  7 + 14 + 28 + 56 + ... + (under 50,000) = ?
+-  **Q5:**  7 + 14 + 28 + 56 + ... + (under 50,000) = 65535
 
 
 -  **Q6:**  Which answer was larger, question 2 or question 3?  Why do you think so?
+Question 3 has bigger limit, than question 2.
 
-
--  **Q7:**  2 + -6 + 18 + -54 + 162 + ... (under 1000000)= ?
+-  **Q7:**  2 + -6 + 18 + -54 + 162 + ... (under 1000000)= -265720
 

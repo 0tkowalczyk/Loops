@@ -1,39 +1,44 @@
-// For-loop functions
-
 function positiveIntSum(limit){
     let sum = 0;
-    for(let i = 1 ; i <= limit; i=i+1){
-            sum = sum + i;
+    for(let k=1; k<=limit; k++){
+        sum = sum + k;
     }
     return sum;
 }
 
 
-function additionPatternSum(start, diff, limit){
-    for (let i = start; i <= limit; i = i + diff){
-            start = start + i
+function addSum(start, diff, max){
+    //setting up varaibles
+    let sum = 0;
+    let currentNumber = start;
+
+    while(currentNumber <= max){
+        //adding to the sum.
+        sum = sum + currentNumber;
+        //moving to the next number in the list.
+        currentNumber = currentNumber + diff;
     }
-    return start;
-}
 
-
-
-
-// While-loop function
-
-function multiplicationPatternSum(start, factor, max){
-    let sum = start;
-    let i = start;
-    while (i <= max){
-            sum = sum + i * factor;
-        i = i + factor;
-        }
     return sum;
 }
 
+function multSum(start, factor, max){
+    //setting up varaibles
+    let sum = 0;
+    let currentNumber = start;
 
+    while(currentNumber <= max){
+        //adding to the sum.
+        sum = sum + currentNumber;
+        //moving to the next number in the list.
+        currentNumber = currentNumber * factor;
+    }
 
-//Later copy paste the checking code below here.
-console.log(positiveIntSum(1500))
-console.log(additionPatternSum(10, 1, 100))
-console.log(multiplicationPatternSum(10, 1, 1000))
+    return sum;
+}
+console.log(positiveIntSum(1500));
+console.log(positiveIntSum(2000000));
+console.log(addSum(-80, 60, 2860));
+console.log(addSum(10, 5, 100));
+console.log(multSum(1, 2, 50000));
+console.log(multSum(2, -3, 1000000));
